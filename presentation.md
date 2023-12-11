@@ -116,6 +116,14 @@ def no_guard_needed_if_we_never_enter_garbage(st: SomeType):  # ✨
 
 ---
 
+<!-- _class: lead -->
+
+## `demo()`: `pydantic` in a real project
+
+(if there is time)
+
+---
+
 ## 🐼 poor `pandas`
 
 * what if everything is a `DataFrame` though?
@@ -175,6 +183,7 @@ def no_guard_needed_if_we_never_enter_garbage(st: SomeType):  # ✨
 
 ---
 
+* [Why Type Safety is Important](https://www.shuttle.rs/blog/2023/11/29/type-safety)
 * [The type system is a programmer's best friend](https://web.archive.org/web/20230328111411/https://dusted.codes/the-type-system-is-a-programmers-best-friend)
 * [How To Survive Your Project's First 100,000 Lines](https://web.archive.org/web/20230505040711/https://verdagon.dev/blog/first-100k-lines)
 * [Writing Python like it's Rust](https://kobzol.github.io/rust/python/2023/05/20/writing-python-like-its-rust.html)
