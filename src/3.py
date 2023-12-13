@@ -22,7 +22,10 @@ IRRELEVANT = object()
 
 @pytest.mark.parametrize(
     ["a", "b", "result"],
-    [(1, 2, 3), ("a", "b", "ab")],
+    [
+        (1, 2, 3),
+        ("a", "b", "ab"),
+    ],
 )
 def test_add_numbers(a: t.Any, b: t.Any, result: t.Any) -> None:
     assert add_numbers(a, b) == result
@@ -33,5 +36,5 @@ def test_add_numbers(a: t.Any, b: t.Any, result: t.Any) -> None:
 # Python 3.12 has an answer for that:
 
 
-def add_numbers_again[A: Addable](a: A, b: A) -> A:
-    return a + b
+# def add_numbers_again[A: Addable](a: A, b: A) -> A:
+#     return a + b
