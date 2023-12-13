@@ -1,3 +1,3 @@
-# Type-State Pattern
+# mypy, but why?
 
-A universal pattern for *less wrong*™ code.
+A practical introduction to typing in Python.
